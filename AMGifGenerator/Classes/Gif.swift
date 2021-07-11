@@ -11,11 +11,11 @@ public struct Gif {
 
     // MARK: - read only properties
 
-    private (set) var animationImages: [UIImage]
-    private (set) var repeatCount: Int = 0 // Infinite loop
-    private (set) var frameDuration: Float = 0.05
+    private(set) var animationImages: [UIImage]
+    private(set) var repeatCount: Int = 0 // Infinite loop
+    private(set) var frameDuration: Float = 0.05
     var animationDuration: TimeInterval { TimeInterval(frameDuration * Float(animationImages.count)) }
-    private (set) var data: Data?
+    public private(set) var data: Data?
 
     /// initializer
     /// - Parameters:

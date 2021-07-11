@@ -31,18 +31,8 @@ pod 'AMGifGenerator'
 import AMGifGenerator
 ```
 
-#### Sync processing
-```ruby
-// generate GIF from UIImage array
-let gif = Gif.generate(images: yourImages, repeatCount: 0, delay: 0.2)
-
-// generate GIF from data
-let gif = Gif.generate(data: yourGifData)
-```
-
 #### Async processing
-In general, Image processing is a heavy task.
-So you should use async method when you call them from main thread.
+In general, image processing is a heavy task. So you should use async method when you call them from main thread.
 ```ruby
 // generate GIF from UIImage array
 Gif.generate(images: yourImages, repeatCount: 0, delay: 0.2) { gif in
@@ -55,17 +45,26 @@ Gif.generate(data: yourGifData) { gif in
 }
 ```
 
-#### Save as a file
+#### Sync processing
+If you were at non-main thread then you can process gif synchronously.
 ```ruby
-let success = gif.export(fileUrl: yourFileURL)
+// generate GIF from UIImage array
+let gif = Gif.generate(images: yourImages, repeatCount: 0, delay: 0.2)
+
+// generate GIF from data
+let gif = Gif.generate(data: yourGifData)
 ```
-Use PhotoKit framework when you want to save into user's photo library.
 
 #### Set to UIImageView
 ```ruby
 imageView.load(gif: gif)
 ```
 
+#### Save as a file
+```ruby
+let success = gif.export(fileUrl: yourFileURL)
+// or use PhotoKit framework when you'll need to save into user's photo library.
+```
 Please check out my sample code for more detail.
 
 ## Author
