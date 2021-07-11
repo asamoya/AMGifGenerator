@@ -1,0 +1,6 @@
+framework module AMGifGenerator {
+  umbrella header "AMGifGenerator-umbrella.h"
+
+  export *
+  module * { export * }
+}

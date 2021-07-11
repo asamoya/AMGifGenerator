@@ -1,13 +1,11 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '12.1'
 
 target 'AMGifGenerator_Example' do
   pod 'AMGifGenerator', :path => '../'
 
   target 'AMGifGenerator_Tests' do
     inherit! :search_paths
-
-    
   end
 end

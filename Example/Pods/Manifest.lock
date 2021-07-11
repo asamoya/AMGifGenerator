@@ -1,0 +1,16 @@
+PODS:
+  - AMGifGenerator (0.1.0)
+
+DEPENDENCIES:
+  - AMGifGenerator (from `../`)
+
+EXTERNAL SOURCES:
+  AMGifGenerator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMGifGenerator: e9eb67dc22e0c558bf7f041ec3857652e8cf9411
+
+PODFILE CHECKSUM: 4c6e48c0705b76da5759669e36561bea5bb97d5f
+
+COCOAPODS: 1.10.1

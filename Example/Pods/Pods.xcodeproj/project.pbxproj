@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A94DFF74E9FE72476F99332D293FA58 /* AMGifGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA18DFF816373E97BF8D8D05088501F /* AMGifGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21ABEB5C4D6A789A2F4E3BD4F5C2D001 /* Pods-AMGifGenerator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 241C4241C349714D2B228F1F20C7B092 /* Pods-AMGifGenerator_Tests-dummy.m */; };
+		3B62C14C96CC38938AD1D83A4953DCAB /* AMGifGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D732AF38D9F45493EAF4ADE1B98851C /* AMGifGenerator-dummy.m */; };
+		44D2AA48EBEE06C34B2E744C6A864143 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C9A2F3C067F932A5EEB1EDC0247F7D6 /* Pods-AMGifGenerator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F3C3D29BAF0B30F6D080EA774F381F /* Pods-AMGifGenerator_Example-dummy.m */; };
+		4EB0C729702E71C390FA925B65527EB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5E84980278782897BCE12A7ED9EB9977 /* Pods-AMGifGenerator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6E9EE9E7ACF8547665C7CECCD7D2A1 /* Pods-AMGifGenerator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89D2D824B0216D05596D36F86DF668D2 /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524970C4E9E1DB5DADC3DBBCC1669775 /* Gif.swift */; };
+		C164B564289212AEF283C367DFF0C594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E0C0E9AECF3A694C025BE7F9428CFB44 /* Pods-AMGifGenerator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38CFA13D206CC570558FE36A45C23202 /* Pods-AMGifGenerator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4749A56100DD1E99E6FF61665839779D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41386ABC41547D594921904631524789;
+			remoteInfo = "Pods-AMGifGenerator_Example";
+		};
+		C272CF6BF21E0CAFC350C7652D7A1724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59530C5D588A565A1C02CFBEDB98CFD0;
+			remoteInfo = AMGifGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F3FB2E014A0B99693351FCCC7FAA7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		18F35FA8D996FB698201B8D75E239193 /* Pods-AMGifGenerator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMGifGenerator_Tests-Info.plist"; sourceTree = "<group>"; };
+		1CB31E5DD0B0531215A5EB40DA51430E /* Pods-AMGifGenerator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AMGifGenerator_Tests.modulemap"; sourceTree = "<group>"; };
+		1D732AF38D9F45493EAF4ADE1B98851C /* AMGifGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMGifGenerator-dummy.m"; sourceTree = "<group>"; };
+		23BFA0F4A18B9000573D5D75D6B1EA99 /* Pods-AMGifGenerator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMGifGenerator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		241C4241C349714D2B228F1F20C7B092 /* Pods-AMGifGenerator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMGifGenerator_Tests-dummy.m"; sourceTree = "<group>"; };
+		27D8690A54408A1383799FF30ABEBCE0 /* Pods-AMGifGenerator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMGifGenerator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		29FA11F566FF1C15D5EB8B5C65EEC791 /* Pods_AMGifGenerator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMGifGenerator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B99110FA82FA34FA24C42DC73E28AD /* Pods-AMGifGenerator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AMGifGenerator_Example.modulemap"; sourceTree = "<group>"; };
+		34F1D6DC9B7704BD7244FAE9127C26E6 /* AMGifGenerator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AMGifGenerator.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		38CFA13D206CC570558FE36A45C23202 /* Pods-AMGifGenerator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMGifGenerator_Example-umbrella.h"; sourceTree = "<group>"; };
+		4507E210DE46393A1594180FF6387EE0 /* Pods-AMGifGenerator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMGifGenerator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		524970C4E9E1DB5DADC3DBBCC1669775 /* Gif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gif.swift; path = AMGifGenerator/Classes/Gif.swift; sourceTree = "<group>"; };
+		6D98AF884F84123E1AD828830A3A0D09 /* Pods-AMGifGenerator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMGifGenerator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6FD85567C499DD24D0D8E75819520CCF /* Pods-AMGifGenerator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMGifGenerator_Example-Info.plist"; sourceTree = "<group>"; };
+		72F3C3D29BAF0B30F6D080EA774F381F /* Pods-AMGifGenerator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMGifGenerator_Example-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E3D2FA12FF4B8A0BEA699A985FE51A4 /* AMGifGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMGifGenerator.modulemap; sourceTree = "<group>"; };
+		862DF03070B12BE2C5889CE7F2350562 /* Pods-AMGifGenerator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMGifGenerator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8E164434E52AD34DFAB4E3D017BCA893 /* AMGifGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMGifGenerator.debug.xcconfig; sourceTree = "<group>"; };
+		90BE39698C16252F99A97480EFDCC595 /* Pods-AMGifGenerator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMGifGenerator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		90D3D970CBE11A03A4E234E9358E86C1 /* Pods-AMGifGenerator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMGifGenerator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93D892D433BC0357EC1E443B07C1D749 /* AMGifGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMGifGenerator-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A24F8B5C735C0D7D40F07FC0AC17DB07 /* Pods-AMGifGenerator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMGifGenerator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B50E2F48655C7B09F8BB4A7932BA27BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B8A63407EC356AEA4EEC65FAD45C2883 /* AMGifGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMGifGenerator.release.xcconfig; sourceTree = "<group>"; };
+		C344546D30C2FCB700B75DBE00537033 /* AMGifGenerator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMGifGenerator-Info.plist"; sourceTree = "<group>"; };
+		CD10BC78985F040FFC40968255E71830 /* AMGifGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMGifGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5188A5EE8C9A5EA884B17992E037288 /* Pods-AMGifGenerator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMGifGenerator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED6E9EE9E7ACF8547665C7CECCD7D2A1 /* Pods-AMGifGenerator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMGifGenerator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EE075A2BEE1F958E4A08FFDBF9F1BF39 /* Pods_AMGifGenerator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMGifGenerator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA18DFF816373E97BF8D8D05088501F /* AMGifGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMGifGenerator-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		311B552475188430E90B07C73A55C9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB0C729702E71C390FA925B65527EB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66921012B000B874D20E502C178F6F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C164B564289212AEF283C367DFF0C594 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B4F89C32AF91561BC9FDE134697846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D2AA48EBEE06C34B2E744C6A864143 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D9A14B11AB73FC449CD724AD53D7AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E3D2FA12FF4B8A0BEA699A985FE51A4 /* AMGifGenerator.modulemap */,
+				1D732AF38D9F45493EAF4ADE1B98851C /* AMGifGenerator-dummy.m */,
+				C344546D30C2FCB700B75DBE00537033 /* AMGifGenerator-Info.plist */,
+				93D892D433BC0357EC1E443B07C1D749 /* AMGifGenerator-prefix.pch */,
+				FFA18DFF816373E97BF8D8D05088501F /* AMGifGenerator-umbrella.h */,
+				8E164434E52AD34DFAB4E3D017BCA893 /* AMGifGenerator.debug.xcconfig */,
+				B8A63407EC356AEA4EEC65FAD45C2883 /* AMGifGenerator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AMGifGenerator";
+			sourceTree = "<group>";
+		};
+		253028E05C22ABEB41FDE85F6DE52FA4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C8CE51E459FF76826802F4D7211F13A /* AMGifGenerator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4608F58753FFC2291A38CEBB4B6756DE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				34F1D6DC9B7704BD7244FAE9127C26E6 /* AMGifGenerator.podspec */,
+				05F3FB2E014A0B99693351FCCC7FAA7F /* LICENSE */,
+				B50E2F48655C7B09F8BB4A7932BA27BF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		55D7D93A488A4BC899D9FC9AEE99B718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD10BC78985F040FFC40968255E71830 /* AMGifGenerator.framework */,
+				EE075A2BEE1F958E4A08FFDBF9F1BF39 /* Pods_AMGifGenerator_Example.framework */,
+				29FA11F566FF1C15D5EB8B5C65EEC791 /* Pods_AMGifGenerator_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8C8CE51E459FF76826802F4D7211F13A /* AMGifGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				524970C4E9E1DB5DADC3DBBCC1669775 /* Gif.swift */,
+				4608F58753FFC2291A38CEBB4B6756DE /* Pod */,
+				08D9A14B11AB73FC449CD724AD53D7AF /* Support Files */,
+			);
+			name = AMGifGenerator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B894C338556DE6EB865F233F2EC0DA03 /* Pods-AMGifGenerator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				33B99110FA82FA34FA24C42DC73E28AD /* Pods-AMGifGenerator_Example.modulemap */,
+				4507E210DE46393A1594180FF6387EE0 /* Pods-AMGifGenerator_Example-acknowledgements.markdown */,
+				90D3D970CBE11A03A4E234E9358E86C1 /* Pods-AMGifGenerator_Example-acknowledgements.plist */,
+				72F3C3D29BAF0B30F6D080EA774F381F /* Pods-AMGifGenerator_Example-dummy.m */,
+				90BE39698C16252F99A97480EFDCC595 /* Pods-AMGifGenerator_Example-frameworks.sh */,
+				6FD85567C499DD24D0D8E75819520CCF /* Pods-AMGifGenerator_Example-Info.plist */,
+				38CFA13D206CC570558FE36A45C23202 /* Pods-AMGifGenerator_Example-umbrella.h */,
+				862DF03070B12BE2C5889CE7F2350562 /* Pods-AMGifGenerator_Example.debug.xcconfig */,
+				23BFA0F4A18B9000573D5D75D6B1EA99 /* Pods-AMGifGenerator_Example.release.xcconfig */,
+			);
+			name = "Pods-AMGifGenerator_Example";
+			path = "Target Support Files/Pods-AMGifGenerator_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				253028E05C22ABEB41FDE85F6DE52FA4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				55D7D93A488A4BC899D9FC9AEE99B718 /* Products */,
+				E64DE2DAA8D3347BC6FBC5320C849B1C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E64DE2DAA8D3347BC6FBC5320C849B1C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B894C338556DE6EB865F233F2EC0DA03 /* Pods-AMGifGenerator_Example */,
+				FA2781CFE0BB85990C46DB31D15B863F /* Pods-AMGifGenerator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FA2781CFE0BB85990C46DB31D15B863F /* Pods-AMGifGenerator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1CB31E5DD0B0531215A5EB40DA51430E /* Pods-AMGifGenerator_Tests.modulemap */,
+				A24F8B5C735C0D7D40F07FC0AC17DB07 /* Pods-AMGifGenerator_Tests-acknowledgements.markdown */,
+				E5188A5EE8C9A5EA884B17992E037288 /* Pods-AMGifGenerator_Tests-acknowledgements.plist */,
+				241C4241C349714D2B228F1F20C7B092 /* Pods-AMGifGenerator_Tests-dummy.m */,
+				18F35FA8D996FB698201B8D75E239193 /* Pods-AMGifGenerator_Tests-Info.plist */,
+				ED6E9EE9E7ACF8547665C7CECCD7D2A1 /* Pods-AMGifGenerator_Tests-umbrella.h */,
+				27D8690A54408A1383799FF30ABEBCE0 /* Pods-AMGifGenerator_Tests.debug.xcconfig */,
+				6D98AF884F84123E1AD828830A3A0D09 /* Pods-AMGifGenerator_Tests.release.xcconfig */,
+			);
+			name = "Pods-AMGifGenerator_Tests";
+			path = "Target Support Files/Pods-AMGifGenerator_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2EEAA934D98B9462B1900129B3E0B275 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A94DFF74E9FE72476F99332D293FA58 /* AMGifGenerator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49C4CC8CFC4FFD773CA82CD28B311CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C0E9AECF3A694C025BE7F9428CFB44 /* Pods-AMGifGenerator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA50D0F31DCB1860C9B5E6D90295697C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E84980278782897BCE12A7ED9EB9977 /* Pods-AMGifGenerator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		157D9BB1F59ED345EAB85FAD15EAED92 /* Pods-AMGifGenerator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19E55CB84909B70B0AC2801EFF2FD43 /* Build configuration list for PBXNativeTarget "Pods-AMGifGenerator_Tests" */;
+			buildPhases = (
+				BA50D0F31DCB1860C9B5E6D90295697C /* Headers */,
+				7BB3DE54B7479F56414CDAD2D74E31FB /* Sources */,
+				66921012B000B874D20E502C178F6F91 /* Frameworks */,
+				549D2E957747D6FE5B1C97B6435120ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953E6EBB5E2EDC332C592DE485876BBD /* PBXTargetDependency */,
+			);
+			name = "Pods-AMGifGenerator_Tests";
+			productName = "Pods-AMGifGenerator_Tests";
+			productReference = 29FA11F566FF1C15D5EB8B5C65EEC791 /* Pods_AMGifGenerator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41386ABC41547D594921904631524789 /* Pods-AMGifGenerator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D14CAAE52C1312B3EAE9970E7FEF9F /* Build configuration list for PBXNativeTarget "Pods-AMGifGenerator_Example" */;
+			buildPhases = (
+				B49C4CC8CFC4FFD773CA82CD28B311CF /* Headers */,
+				094846153EDBC892FE19113F28C60B65 /* Sources */,
+				73B4F89C32AF91561BC9FDE134697846 /* Frameworks */,
+				03B6166F6D409F584C2342D2C0A8ED27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9300747E038412572289D51F76A3FFEC /* PBXTargetDependency */,
+			);
+			name = "Pods-AMGifGenerator_Example";
+			productName = "Pods-AMGifGenerator_Example";
+			productReference = EE075A2BEE1F958E4A08FFDBF9F1BF39 /* Pods_AMGifGenerator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		59530C5D588A565A1C02CFBEDB98CFD0 /* AMGifGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A5DDA63D0411C304D29B680A64C3F5F /* Build configuration list for PBXNativeTarget "AMGifGenerator" */;
+			buildPhases = (
+				2EEAA934D98B9462B1900129B3E0B275 /* Headers */,
+				B09C6EB26BDE21A8C5754A78B466CBD4 /* Sources */,
+				311B552475188430E90B07C73A55C9A9 /* Frameworks */,
+				06F4A4559FAFC962AE5E985852B27D89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMGifGenerator;
+			productName = AMGifGenerator;
+			productReference = CD10BC78985F040FFC40968255E71830 /* AMGifGenerator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 55D7D93A488A4BC899D9FC9AEE99B718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59530C5D588A565A1C02CFBEDB98CFD0 /* AMGifGenerator */,
+				41386ABC41547D594921904631524789 /* Pods-AMGifGenerator_Example */,
+				157D9BB1F59ED345EAB85FAD15EAED92 /* Pods-AMGifGenerator_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03B6166F6D409F584C2342D2C0A8ED27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F4A4559FAFC962AE5E985852B27D89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549D2E957747D6FE5B1C97B6435120ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		094846153EDBC892FE19113F28C60B65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9A2F3C067F932A5EEB1EDC0247F7D6 /* Pods-AMGifGenerator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB3DE54B7479F56414CDAD2D74E31FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21ABEB5C4D6A789A2F4E3BD4F5C2D001 /* Pods-AMGifGenerator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09C6EB26BDE21A8C5754A78B466CBD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B62C14C96CC38938AD1D83A4953DCAB /* AMGifGenerator-dummy.m in Sources */,
+				89D2D824B0216D05596D36F86DF668D2 /* Gif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9300747E038412572289D51F76A3FFEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMGifGenerator;
+			target = 59530C5D588A565A1C02CFBEDB98CFD0 /* AMGifGenerator */;
+			targetProxy = C272CF6BF21E0CAFC350C7652D7A1724 /* PBXContainerItemProxy */;
+		};
+		953E6EBB5E2EDC332C592DE485876BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AMGifGenerator_Example";
+			target = 41386ABC41547D594921904631524789 /* Pods-AMGifGenerator_Example */;
+			targetProxy = 4749A56100DD1E99E6FF61665839779D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0082FC00BCCBFCAA63AA5C98EA587C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5CDF7959D6C4D3C889129638E4CD323F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23BFA0F4A18B9000573D5D75D6B1EA99 /* Pods-AMGifGenerator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AMGifGenerator_Example/Pods-AMGifGenerator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMGifGenerator_Example/Pods-AMGifGenerator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		815523CC90385A51A61BE5C744901B7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 862DF03070B12BE2C5889CE7F2350562 /* Pods-AMGifGenerator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AMGifGenerator_Example/Pods-AMGifGenerator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMGifGenerator_Example/Pods-AMGifGenerator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C987E9079ED8990408799941641386AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E164434E52AD34DFAB4E3D017BCA893 /* AMGifGenerator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMGifGenerator/AMGifGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMGifGenerator/AMGifGenerator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMGifGenerator/AMGifGenerator.modulemap";
+				PRODUCT_MODULE_NAME = AMGifGenerator;
+				PRODUCT_NAME = AMGifGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE608FD46A8650A7DCF04C61034B183B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D98AF884F84123E1AD828830A3A0D09 /* Pods-AMGifGenerator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AMGifGenerator_Tests/Pods-AMGifGenerator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMGifGenerator_Tests/Pods-AMGifGenerator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF49E82195787CB519AC95BA27BD9B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A63407EC356AEA4EEC65FAD45C2883 /* AMGifGenerator.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMGifGenerator/AMGifGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMGifGenerator/AMGifGenerator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMGifGenerator/AMGifGenerator.modulemap";
+				PRODUCT_MODULE_NAME = AMGifGenerator;
+				PRODUCT_NAME = AMGifGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5B12AB88A4F6C443C963D290ECB2428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FF193FA14D1EEE8B0E400A22FC709D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D8690A54408A1383799FF30ABEBCE0 /* Pods-AMGifGenerator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AMGifGenerator_Tests/Pods-AMGifGenerator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMGifGenerator_Tests/Pods-AMGifGenerator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0082FC00BCCBFCAA63AA5C98EA587C17 /* Debug */,
+				E5B12AB88A4F6C443C963D290ECB2428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5DDA63D0411C304D29B680A64C3F5F /* Build configuration list for PBXNativeTarget "AMGifGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C987E9079ED8990408799941641386AF /* Debug */,
+				DF49E82195787CB519AC95BA27BD9B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19E55CB84909B70B0AC2801EFF2FD43 /* Build configuration list for PBXNativeTarget "Pods-AMGifGenerator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF193FA14D1EEE8B0E400A22FC709D99 /* Debug */,
+				CE608FD46A8650A7DCF04C61034B183B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D14CAAE52C1312B3EAE9970E7FEF9F /* Build configuration list for PBXNativeTarget "Pods-AMGifGenerator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815523CC90385A51A61BE5C744901B7C /* Debug */,
+				5CDF7959D6C4D3C889129638E4CD323F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
