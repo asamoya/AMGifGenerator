@@ -16,7 +16,7 @@
 		9FF4F3AB48A63C996BB0314B /* Pods_AMGifGenerator_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA12436A75106A038599337 /* Pods_AMGifGenerator_Example.framework */; };
 		E13B142D269A5E7100A36082 /* UIColor+image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13B142C269A5E7100A36082 /* UIColor+image.swift */; };
 		E13B142F269A634E00A36082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13B142E269A634E00A36082 /* LaunchScreen.storyboard */; };
-		E13B1432269A746C00A36082 /* shot0.gif in Resources */ = {isa = PBXBuildFile; fileRef = E13B1431269A746C00A36082 /* shot0.gif */; };
+		E13B1435269AAE4900A36082 /* shot0.gif in Resources */ = {isa = PBXBuildFile; fileRef = E13B1434269AAE4900A36082 /* shot0.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		CC8B6C5D94973C041612C142 /* Pods-AMGifGenerator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMGifGenerator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AMGifGenerator_Tests/Pods-AMGifGenerator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E13B142C269A5E7100A36082 /* UIColor+image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+image.swift"; sourceTree = "<group>"; };
 		E13B142E269A634E00A36082 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E13B1431269A746C00A36082 /* shot0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shot0.gif; sourceTree = "<group>"; };
+		E13B1434269AAE4900A36082 /* shot0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shot0.gif; sourceTree = "<group>"; };
 		E6D683FE1AC3584AE707CA60 /* AMGifGenerator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AMGifGenerator.podspec; path = ../AMGifGenerator.podspec; sourceTree = "<group>"; };
 		EFA418017E47595A99609631 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,8 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				E13B1430269A732000A36082 /* ScreenShots */,
 				607FACD21AFB9204008FA782 /* Example for AMGifGenerator */,
+				E13B1433269AAE4900A36082 /* ScreenShots */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				7BE91F76869699AA429FEF2D /* Pods */,
@@ -165,12 +165,13 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		E13B1430269A732000A36082 /* ScreenShots */ = {
+		E13B1433269AAE4900A36082 /* ScreenShots */ = {
 			isa = PBXGroup;
 			children = (
-				E13B1431269A746C00A36082 /* shot0.gif */,
+				E13B1434269AAE4900A36082 /* shot0.gif */,
 			);
-			path = ScreenShots;
+			name = ScreenShots;
+			path = ../ScreenShots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +265,7 @@
 				E13B142F269A634E00A36082 /* LaunchScreen.storyboard in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				E13B1432269A746C00A36082 /* shot0.gif in Resources */,
+				E13B1435269AAE4900A36082 /* shot0.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
