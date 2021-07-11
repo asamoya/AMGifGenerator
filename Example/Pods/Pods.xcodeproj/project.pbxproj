@@ -37,16 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05F3FB2E014A0B99693351FCCC7FAA7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		05F3FB2E014A0B99693351FCCC7FAA7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		18F35FA8D996FB698201B8D75E239193 /* Pods-AMGifGenerator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMGifGenerator_Tests-Info.plist"; sourceTree = "<group>"; };
 		1CB31E5DD0B0531215A5EB40DA51430E /* Pods-AMGifGenerator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AMGifGenerator_Tests.modulemap"; sourceTree = "<group>"; };
 		1D732AF38D9F45493EAF4ADE1B98851C /* AMGifGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMGifGenerator-dummy.m"; sourceTree = "<group>"; };
 		23BFA0F4A18B9000573D5D75D6B1EA99 /* Pods-AMGifGenerator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMGifGenerator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		241C4241C349714D2B228F1F20C7B092 /* Pods-AMGifGenerator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMGifGenerator_Tests-dummy.m"; sourceTree = "<group>"; };
 		27D8690A54408A1383799FF30ABEBCE0 /* Pods-AMGifGenerator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMGifGenerator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		29FA11F566FF1C15D5EB8B5C65EEC791 /* Pods_AMGifGenerator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMGifGenerator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FA11F566FF1C15D5EB8B5C65EEC791 /* Pods_AMGifGenerator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AMGifGenerator_Tests.framework; path = "Pods-AMGifGenerator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B99110FA82FA34FA24C42DC73E28AD /* Pods-AMGifGenerator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AMGifGenerator_Example.modulemap"; sourceTree = "<group>"; };
-		34F1D6DC9B7704BD7244FAE9127C26E6 /* AMGifGenerator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AMGifGenerator.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		34F1D6DC9B7704BD7244FAE9127C26E6 /* AMGifGenerator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AMGifGenerator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		38CFA13D206CC570558FE36A45C23202 /* Pods-AMGifGenerator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMGifGenerator_Example-umbrella.h"; sourceTree = "<group>"; };
 		4507E210DE46393A1594180FF6387EE0 /* Pods-AMGifGenerator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMGifGenerator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		524970C4E9E1DB5DADC3DBBCC1669775 /* Gif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gif.swift; path = AMGifGenerator/Classes/Gif.swift; sourceTree = "<group>"; };
@@ -60,15 +60,15 @@
 		90BE39698C16252F99A97480EFDCC595 /* Pods-AMGifGenerator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMGifGenerator_Example-frameworks.sh"; sourceTree = "<group>"; };
 		90D3D970CBE11A03A4E234E9358E86C1 /* Pods-AMGifGenerator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMGifGenerator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		93D892D433BC0357EC1E443B07C1D749 /* AMGifGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMGifGenerator-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A24F8B5C735C0D7D40F07FC0AC17DB07 /* Pods-AMGifGenerator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMGifGenerator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B50E2F48655C7B09F8BB4A7932BA27BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B50E2F48655C7B09F8BB4A7932BA27BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B8A63407EC356AEA4EEC65FAD45C2883 /* AMGifGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMGifGenerator.release.xcconfig; sourceTree = "<group>"; };
 		C344546D30C2FCB700B75DBE00537033 /* AMGifGenerator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMGifGenerator-Info.plist"; sourceTree = "<group>"; };
-		CD10BC78985F040FFC40968255E71830 /* AMGifGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMGifGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD10BC78985F040FFC40968255E71830 /* AMGifGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMGifGenerator.framework; path = AMGifGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5188A5EE8C9A5EA884B17992E037288 /* Pods-AMGifGenerator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMGifGenerator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		ED6E9EE9E7ACF8547665C7CECCD7D2A1 /* Pods-AMGifGenerator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMGifGenerator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EE075A2BEE1F958E4A08FFDBF9F1BF39 /* Pods_AMGifGenerator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMGifGenerator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE075A2BEE1F958E4A08FFDBF9F1BF39 /* Pods_AMGifGenerator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AMGifGenerator_Example.framework; path = "Pods-AMGifGenerator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA18DFF816373E97BF8D8D05088501F /* AMGifGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMGifGenerator-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -316,7 +316,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -477,6 +477,7 @@
 			baseConfigurationReference = 23BFA0F4A18B9000573D5D75D6B1EA99 /* Pods-AMGifGenerator_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -511,6 +512,7 @@
 			baseConfigurationReference = 862DF03070B12BE2C5889CE7F2350562 /* Pods-AMGifGenerator_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -543,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8E164434E52AD34DFAB4E3D017BCA893 /* AMGifGenerator.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -575,6 +578,7 @@
 			baseConfigurationReference = 6D98AF884F84123E1AD828830A3A0D09 /* Pods-AMGifGenerator_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -608,6 +612,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8A63407EC356AEA4EEC65FAD45C2883 /* AMGifGenerator.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -691,7 +696,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -702,6 +708,7 @@
 			baseConfigurationReference = 27D8690A54408A1383799FF30ABEBCE0 /* Pods-AMGifGenerator_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

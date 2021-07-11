@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AMGifGenerator: e9eb67dc22e0c558bf7f041ec3857652e8cf9411
+  AMGifGenerator: 8cb111a4de6d2a2cafe593dc58cf6df0388ad0b7
 
 PODFILE CHECKSUM: 4c6e48c0705b76da5759669e36561bea5bb97d5f
 
